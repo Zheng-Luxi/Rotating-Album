@@ -26,13 +26,13 @@ html, body {
 	height: 100%;
 	list-style: none;
 	position: absolute;
+	transition: all .3s linear 0s;
+	opacity: .7;
 }
 
 #inners li img {
 	width: 100%;
 	height: 100%;
-	transition: all 1s;
-	opacity: .8;
 }
 
 #inners li:first-child {
@@ -57,7 +57,7 @@ html, body {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	perspective: 10000px;
+	perspective: 1000;
 	perspective-origin: 50% 50%;
 	transform-style: preserve-3d;
 	transform: translate( -50%, -50% ) rotateX( -10deg );
@@ -69,14 +69,13 @@ html, body {
 	height: 100%;
 	list-style: none;
 	position: absolute;
-	transition: all .5s linear 0s;
+	transition: all .3s linear 0s;
+	opacity: .15;
 }
 
 #outers li img {
 	width: 100%;
 	height: 100%;
-	transition: all 1s;
-	opacity: .3;
 }
 
 #outers li:first-child {
